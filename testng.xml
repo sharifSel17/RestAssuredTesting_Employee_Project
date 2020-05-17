@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testing Google Apps">
+    <listeners>
+        <listener class-name="utilities.Listeners"/>
+    </listeners>
+    <test name="Rest API Testing" thread-count="5">
+        <classes>
+            <class name="testScripts.TC001_GET_ALL_Employees"/>
+            <class name="testScripts.TC002_GET_SINGLE_Employee_Details"/>
+            <class name="testScripts.TC003_Create_New_Employee"/>
+            <class name="testScripts.TC004_Update_Record"/>
+            <class name="testScripts.TC005_Delete_Record">
+            </class>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
