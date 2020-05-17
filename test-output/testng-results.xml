@@ -2,32 +2,40 @@
 <testng-results ignored="0" total="25" passed="20" failed="5" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-05-17T02:58:08 EDT" name="Testing Google Apps" finished-at="2020-05-17T02:58:34 EDT" duration-ms="26125">
+  <suite started-at="2020-05-17T14:17:46 EDT" name="Testing Google Apps" finished-at="2020-05-17T14:18:12 EDT" duration-ms="26276">
     <groups>
     </groups>
-    <test started-at="2020-05-17T02:58:08 EDT" name="Rest API Testing" finished-at="2020-05-17T02:58:34 EDT" duration-ms="26125">
+    <test started-at="2020-05-17T14:17:46 EDT" name="Rest API Testing" finished-at="2020-05-17T14:18:12 EDT" duration-ms="26276">
       <class name="testScripts.TC004_Update_Record">
-        <test-method is-config="true" signature="base()[pri:0, instance:testScripts.TC004_Update_Record@33cb5951]" started-at="2020-05-17T02:58:17 EDT" name="base" finished-at="2020-05-17T02:58:17 EDT" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="base()[pri:0, instance:testScripts.TC004_Update_Record@11c20519]" started-at="2020-05-17T14:17:55 EDT" name="base" finished-at="2020-05-17T14:17:55 EDT" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- base -->
-        <test-method is-config="true" signature="getAllEmployees()[pri:0, instance:testScripts.TC004_Update_Record@33cb5951]" started-at="2020-05-17T02:58:17 EDT" name="getAllEmployees" finished-at="2020-05-17T02:58:25 EDT" duration-ms="8429" status="PASS">
+        <test-method is-config="true" signature="getAllEmployees()[pri:0, instance:testScripts.TC004_Update_Record@11c20519]" started-at="2020-05-17T14:17:55 EDT" name="getAllEmployees" finished-at="2020-05-17T14:18:03 EDT" duration-ms="8540" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAllEmployees -->
-        <test-method signature="checkGetTime()[pri:0, instance:testScripts.TC004_Update_Record@33cb5951]" started-at="2020-05-17T02:58:25 EDT" name="checkGetTime" finished-at="2020-05-17T02:58:25 EDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkGetTime -->
-        <test-method signature="checkStatusCode()[pri:0, instance:testScripts.TC004_Update_Record@33cb5951]" started-at="2020-05-17T02:58:25 EDT" name="checkStatusCode" finished-at="2020-05-17T02:58:25 EDT" duration-ms="2" status="PASS">
+        <test-method signature="checkStatusCode()[pri:0, instance:testScripts.TC004_Update_Record@11c20519]" started-at="2020-05-17T14:18:03 EDT" name="checkStatusCode" finished-at="2020-05-17T14:18:03 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatusCode -->
-        <test-method signature="checkStatusLine()[pri:0, instance:testScripts.TC004_Update_Record@33cb5951]" started-at="2020-05-17T02:58:25 EDT" name="checkStatusLine" finished-at="2020-05-17T02:58:25 EDT" duration-ms="2" status="PASS">
+        <test-method signature="checkGetTime()[pri:0, instance:testScripts.TC004_Update_Record@11c20519]" started-at="2020-05-17T14:18:03 EDT" name="checkGetTime" finished-at="2020-05-17T14:18:03 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkGetTime -->
+        <test-method signature="checkingContentType()[pri:0, instance:testScripts.TC004_Update_Record@11c20519]" started-at="2020-05-17T14:18:03 EDT" name="checkingContentType" finished-at="2020-05-17T14:18:03 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkingContentType -->
+        <test-method signature="checkStatusLine()[pri:0, instance:testScripts.TC004_Update_Record@11c20519]" started-at="2020-05-17T14:18:03 EDT" name="checkStatusLine" finished-at="2020-05-17T14:18:03 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatusLine -->
-        <test-method signature="checkingBody()[pri:0, instance:testScripts.TC004_Update_Record@33cb5951]" started-at="2020-05-17T02:58:25 EDT" name="checkingBody" finished-at="2020-05-17T02:58:25 EDT" duration-ms="1" status="FAIL">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testScripts.TC004_Update_Record@11c20519]" started-at="2020-05-17T14:18:03 EDT" name="tearDown" finished-at="2020-05-17T14:18:03 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="checkingBody()[pri:0, instance:testScripts.TC004_Update_Record@11c20519]" started-at="2020-05-17T14:18:03 EDT" name="checkingBody" finished-at="2020-05-17T14:18:03 EDT" duration-ms="0" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -73,139 +81,55 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkingBody -->
-        <test-method signature="checkingContentType()[pri:0, instance:testScripts.TC004_Update_Record@33cb5951]" started-at="2020-05-17T02:58:25 EDT" name="checkingContentType" finished-at="2020-05-17T02:58:25 EDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkingContentType -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testScripts.TC004_Update_Record@33cb5951]" started-at="2020-05-17T02:58:25 EDT" name="tearDown" finished-at="2020-05-17T02:58:25 EDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
       </class> <!-- testScripts.TC004_Update_Record -->
       <class name="testScripts.TC001_GET_ALL_Employees">
-        <test-method is-config="true" signature="base()[pri:0, instance:testScripts.TC001_GET_ALL_Employees@70beb599]" started-at="2020-05-17T02:58:08 EDT" name="base" finished-at="2020-05-17T02:58:08 EDT" duration-ms="80" status="PASS">
+        <test-method is-config="true" signature="base()[pri:0, instance:testScripts.TC001_GET_ALL_Employees@69a10787]" started-at="2020-05-17T14:17:47 EDT" name="base" finished-at="2020-05-17T14:17:47 EDT" duration-ms="55" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- base -->
-        <test-method is-config="true" signature="getAllEmployees()[pri:0, instance:testScripts.TC001_GET_ALL_Employees@70beb599]" started-at="2020-05-17T02:58:08 EDT" name="getAllEmployees" finished-at="2020-05-17T02:58:10 EDT" duration-ms="2058" status="PASS">
+        <test-method is-config="true" signature="getAllEmployees()[pri:0, instance:testScripts.TC001_GET_ALL_Employees@69a10787]" started-at="2020-05-17T14:17:47 EDT" name="getAllEmployees" finished-at="2020-05-17T14:17:48 EDT" duration-ms="1897" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAllEmployees -->
-        <test-method signature="checkGetTime()[pri:0, instance:testScripts.TC001_GET_ALL_Employees@70beb599]" started-at="2020-05-17T02:58:10 EDT" name="checkGetTime" finished-at="2020-05-17T02:58:10 EDT" duration-ms="7" status="PASS">
+        <test-method signature="checkGetTime()[pri:0, instance:testScripts.TC001_GET_ALL_Employees@69a10787]" started-at="2020-05-17T14:17:48 EDT" name="checkGetTime" finished-at="2020-05-17T14:17:48 EDT" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkGetTime -->
-        <test-method signature="checkStatusCode()[pri:0, instance:testScripts.TC001_GET_ALL_Employees@70beb599]" started-at="2020-05-17T02:58:10 EDT" name="checkStatusCode" finished-at="2020-05-17T02:58:11 EDT" duration-ms="5" status="PASS">
+        <test-method signature="checkStatusCode()[pri:0, instance:testScripts.TC001_GET_ALL_Employees@69a10787]" started-at="2020-05-17T14:17:48 EDT" name="checkStatusCode" finished-at="2020-05-17T14:17:48 EDT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatusCode -->
-        <test-method signature="checkStatusLine()[pri:0, instance:testScripts.TC001_GET_ALL_Employees@70beb599]" started-at="2020-05-17T02:58:11 EDT" name="checkStatusLine" finished-at="2020-05-17T02:58:11 EDT" duration-ms="2" status="PASS">
+        <test-method signature="checkStatusLine()[pri:0, instance:testScripts.TC001_GET_ALL_Employees@69a10787]" started-at="2020-05-17T14:17:48 EDT" name="checkStatusLine" finished-at="2020-05-17T14:17:48 EDT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatusLine -->
-        <test-method signature="checkingBody()[pri:0, instance:testScripts.TC001_GET_ALL_Employees@70beb599]" started-at="2020-05-17T02:58:11 EDT" name="checkingBody" finished-at="2020-05-17T02:58:11 EDT" duration-ms="24" status="PASS">
+        <test-method signature="checkingBody()[pri:0, instance:testScripts.TC001_GET_ALL_Employees@69a10787]" started-at="2020-05-17T14:17:48 EDT" name="checkingBody" finished-at="2020-05-17T14:17:49 EDT" duration-ms="20" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkingBody -->
-        <test-method signature="checkingContentType()[pri:0, instance:testScripts.TC001_GET_ALL_Employees@70beb599]" started-at="2020-05-17T02:58:11 EDT" name="checkingContentType" finished-at="2020-05-17T02:58:11 EDT" duration-ms="2" status="PASS">
+        <test-method signature="checkingContentType()[pri:0, instance:testScripts.TC001_GET_ALL_Employees@69a10787]" started-at="2020-05-17T14:17:49 EDT" name="checkingContentType" finished-at="2020-05-17T14:17:49 EDT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkingContentType -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testScripts.TC001_GET_ALL_Employees@70beb599]" started-at="2020-05-17T02:58:11 EDT" name="tearDown" finished-at="2020-05-17T02:58:11 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testScripts.TC001_GET_ALL_Employees@69a10787]" started-at="2020-05-17T14:17:49 EDT" name="tearDown" finished-at="2020-05-17T14:17:49 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testScripts.TC001_GET_ALL_Employees -->
-      <class name="testScripts.TC005_Delete_Record">
-        <test-method is-config="true" signature="base()[pri:0, instance:testScripts.TC005_Delete_Record@365c30cc]" started-at="2020-05-17T02:58:25 EDT" name="base" finished-at="2020-05-17T02:58:25 EDT" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- base -->
-        <test-method is-config="true" signature="getAllEmployees()[pri:0, instance:testScripts.TC005_Delete_Record@365c30cc]" started-at="2020-05-17T02:58:25 EDT" name="getAllEmployees" finished-at="2020-05-17T02:58:34 EDT" duration-ms="9118" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getAllEmployees -->
-        <test-method signature="checkGetTime()[pri:0, instance:testScripts.TC005_Delete_Record@365c30cc]" started-at="2020-05-17T02:58:34 EDT" name="checkGetTime" finished-at="2020-05-17T02:58:34 EDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkGetTime -->
-        <test-method signature="checkStatusCode()[pri:0, instance:testScripts.TC005_Delete_Record@365c30cc]" started-at="2020-05-17T02:58:34 EDT" name="checkStatusCode" finished-at="2020-05-17T02:58:34 EDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkStatusCode -->
-        <test-method signature="checkStatusLine()[pri:0, instance:testScripts.TC005_Delete_Record@365c30cc]" started-at="2020-05-17T02:58:34 EDT" name="checkStatusLine" finished-at="2020-05-17T02:58:34 EDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkStatusLine -->
-        <test-method signature="checkingBody()[pri:0, instance:testScripts.TC005_Delete_Record@365c30cc]" started-at="2020-05-17T02:58:34 EDT" name="checkingBody" finished-at="2020-05-17T02:58:34 EDT" duration-ms="2" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:97)
-at org.testng.Assert.assertEqualsImpl(Assert.java:136)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:751)
-at org.testng.Assert.assertEquals(Assert.java:761)
-at testScripts.TC005_Delete_Record.checkingBody(TC005_Delete_Record.java:34)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkingBody -->
-        <test-method signature="checkingContentType()[pri:0, instance:testScripts.TC005_Delete_Record@365c30cc]" started-at="2020-05-17T02:58:34 EDT" name="checkingContentType" finished-at="2020-05-17T02:58:34 EDT" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkingContentType -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testScripts.TC005_Delete_Record@365c30cc]" started-at="2020-05-17T02:58:34 EDT" name="tearDown" finished-at="2020-05-17T02:58:34 EDT" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testScripts.TC005_Delete_Record -->
       <class name="testScripts.TC002_GET_SINGLE_Employee_Details">
-        <test-method is-config="true" signature="base()[pri:0, instance:testScripts.TC002_GET_SINGLE_Employee_Details@4e41089d]" started-at="2020-05-17T02:58:11 EDT" name="base" finished-at="2020-05-17T02:58:11 EDT" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="base()[pri:0, instance:testScripts.TC002_GET_SINGLE_Employee_Details@2d127a61]" started-at="2020-05-17T14:17:49 EDT" name="base" finished-at="2020-05-17T14:17:49 EDT" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- base -->
-        <test-method is-config="true" signature="getAllEmployees()[pri:0, instance:testScripts.TC002_GET_SINGLE_Employee_Details@4e41089d]" started-at="2020-05-17T02:58:11 EDT" name="getAllEmployees" finished-at="2020-05-17T02:58:11 EDT" duration-ms="457" status="PASS">
+        <test-method is-config="true" signature="getAllEmployees()[pri:0, instance:testScripts.TC002_GET_SINGLE_Employee_Details@2d127a61]" started-at="2020-05-17T14:17:49 EDT" name="getAllEmployees" finished-at="2020-05-17T14:17:49 EDT" duration-ms="517" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAllEmployees -->
-        <test-method signature="checkGetTime()[pri:0, instance:testScripts.TC002_GET_SINGLE_Employee_Details@4e41089d]" started-at="2020-05-17T02:58:11 EDT" name="checkGetTime" finished-at="2020-05-17T02:58:11 EDT" duration-ms="3" status="PASS">
+        <test-method signature="checkGetTime()[pri:0, instance:testScripts.TC002_GET_SINGLE_Employee_Details@2d127a61]" started-at="2020-05-17T14:17:49 EDT" name="checkGetTime" finished-at="2020-05-17T14:17:49 EDT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkGetTime -->
-        <test-method signature="checkStatusCode()[pri:0, instance:testScripts.TC002_GET_SINGLE_Employee_Details@4e41089d]" started-at="2020-05-17T02:58:11 EDT" name="checkStatusCode" finished-at="2020-05-17T02:58:11 EDT" duration-ms="2" status="FAIL">
+        <test-method signature="checkStatusCode()[pri:0, instance:testScripts.TC002_GET_SINGLE_Employee_Details@2d127a61]" started-at="2020-05-17T14:17:49 EDT" name="checkStatusCode" finished-at="2020-05-17T14:17:49 EDT" duration-ms="2" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [200] but found [400]]]>
@@ -251,7 +175,7 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatusCode -->
-        <test-method signature="checkStatusLine()[pri:0, instance:testScripts.TC002_GET_SINGLE_Employee_Details@4e41089d]" started-at="2020-05-17T02:58:11 EDT" name="checkStatusLine" finished-at="2020-05-17T02:58:11 EDT" duration-ms="1" status="FAIL">
+        <test-method signature="checkStatusLine()[pri:0, instance:testScripts.TC002_GET_SINGLE_Employee_Details@2d127a61]" started-at="2020-05-17T14:17:49 EDT" name="checkStatusLine" finished-at="2020-05-17T14:17:49 EDT" duration-ms="1" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [HTTP/1.1 200 OK] but found [HTTP/1.1 400 Bad Request]]]>
@@ -297,7 +221,7 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatusLine -->
-        <test-method signature="checkingBody()[pri:0, instance:testScripts.TC002_GET_SINGLE_Employee_Details@4e41089d]" started-at="2020-05-17T02:58:11 EDT" name="checkingBody" finished-at="2020-05-17T02:58:11 EDT" duration-ms="3" status="FAIL">
+        <test-method signature="checkingBody()[pri:0, instance:testScripts.TC002_GET_SINGLE_Employee_Details@2d127a61]" started-at="2020-05-17T14:17:49 EDT" name="checkingBody" finished-at="2020-05-17T14:17:49 EDT" duration-ms="2" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -343,48 +267,124 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkingBody -->
-        <test-method signature="checkingContentType()[pri:0, instance:testScripts.TC002_GET_SINGLE_Employee_Details@4e41089d]" started-at="2020-05-17T02:58:11 EDT" name="checkingContentType" finished-at="2020-05-17T02:58:11 EDT" duration-ms="2" status="PASS">
+        <test-method signature="checkingContentType()[pri:0, instance:testScripts.TC002_GET_SINGLE_Employee_Details@2d127a61]" started-at="2020-05-17T14:17:49 EDT" name="checkingContentType" finished-at="2020-05-17T14:17:49 EDT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkingContentType -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testScripts.TC002_GET_SINGLE_Employee_Details@4e41089d]" started-at="2020-05-17T02:58:11 EDT" name="tearDown" finished-at="2020-05-17T02:58:11 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testScripts.TC002_GET_SINGLE_Employee_Details@2d127a61]" started-at="2020-05-17T14:17:49 EDT" name="tearDown" finished-at="2020-05-17T14:17:49 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testScripts.TC002_GET_SINGLE_Employee_Details -->
-      <class name="testScripts.TC003_Create_New_Employee">
-        <test-method is-config="true" signature="base()[pri:0, instance:testScripts.TC003_Create_New_Employee@32a068d1]" started-at="2020-05-17T02:58:11 EDT" name="base" finished-at="2020-05-17T02:58:11 EDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- base -->
-        <test-method is-config="true" signature="getAllEmployees()[pri:0, instance:testScripts.TC003_Create_New_Employee@32a068d1]" started-at="2020-05-17T02:58:11 EDT" name="getAllEmployees" finished-at="2020-05-17T02:58:16 EDT" duration-ms="5469" status="PASS">
+      <class name="testScripts.TC005_Delete_Record">
+        <test-method is-config="true" signature="getAllEmployees()[pri:0, instance:testScripts.TC005_Delete_Record@70beb599]" started-at="2020-05-17T14:18:03 EDT" name="getAllEmployees" finished-at="2020-05-17T14:18:12 EDT" duration-ms="9327" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAllEmployees -->
-        <test-method signature="checkGetTime()[pri:0, instance:testScripts.TC003_Create_New_Employee@32a068d1]" started-at="2020-05-17T02:58:16 EDT" name="checkGetTime" finished-at="2020-05-17T02:58:16 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="base()[pri:0, instance:testScripts.TC005_Delete_Record@70beb599]" started-at="2020-05-17T14:18:03 EDT" name="base" finished-at="2020-05-17T14:18:03 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- base -->
+        <test-method signature="checkGetTime()[pri:0, instance:testScripts.TC005_Delete_Record@70beb599]" started-at="2020-05-17T14:18:12 EDT" name="checkGetTime" finished-at="2020-05-17T14:18:12 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkGetTime -->
-        <test-method signature="checkStatusCode()[pri:0, instance:testScripts.TC003_Create_New_Employee@32a068d1]" started-at="2020-05-17T02:58:16 EDT" name="checkStatusCode" finished-at="2020-05-17T02:58:16 EDT" duration-ms="1" status="PASS">
+        <test-method signature="checkStatusCode()[pri:0, instance:testScripts.TC005_Delete_Record@70beb599]" started-at="2020-05-17T14:18:12 EDT" name="checkStatusCode" finished-at="2020-05-17T14:18:12 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatusCode -->
-        <test-method signature="checkStatusLine()[pri:0, instance:testScripts.TC003_Create_New_Employee@32a068d1]" started-at="2020-05-17T02:58:16 EDT" name="checkStatusLine" finished-at="2020-05-17T02:58:16 EDT" duration-ms="1" status="PASS">
+        <test-method signature="checkStatusLine()[pri:0, instance:testScripts.TC005_Delete_Record@70beb599]" started-at="2020-05-17T14:18:12 EDT" name="checkStatusLine" finished-at="2020-05-17T14:18:12 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatusLine -->
-        <test-method signature="checkingBody()[pri:0, instance:testScripts.TC003_Create_New_Employee@32a068d1]" started-at="2020-05-17T02:58:17 EDT" name="checkingBody" finished-at="2020-05-17T02:58:17 EDT" duration-ms="1" status="PASS">
+        <test-method signature="checkingBody()[pri:0, instance:testScripts.TC005_Delete_Record@70beb599]" started-at="2020-05-17T14:18:12 EDT" name="checkingBody" finished-at="2020-05-17T14:18:12 EDT" duration-ms="1" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:751)
+at org.testng.Assert.assertEquals(Assert.java:761)
+at testScripts.TC005_Delete_Record.checkingBody(TC005_Delete_Record.java:34)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkingBody -->
-        <test-method signature="checkingContentType()[pri:0, instance:testScripts.TC003_Create_New_Employee@32a068d1]" started-at="2020-05-17T02:58:17 EDT" name="checkingContentType" finished-at="2020-05-17T02:58:17 EDT" duration-ms="1" status="PASS">
+        <test-method signature="checkingContentType()[pri:0, instance:testScripts.TC005_Delete_Record@70beb599]" started-at="2020-05-17T14:18:12 EDT" name="checkingContentType" finished-at="2020-05-17T14:18:12 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkingContentType -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testScripts.TC003_Create_New_Employee@32a068d1]" started-at="2020-05-17T02:58:17 EDT" name="tearDown" finished-at="2020-05-17T02:58:17 EDT" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testScripts.TC005_Delete_Record@70beb599]" started-at="2020-05-17T14:18:12 EDT" name="tearDown" finished-at="2020-05-17T14:18:12 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
+      </class> <!-- testScripts.TC005_Delete_Record -->
+      <class name="testScripts.TC003_Create_New_Employee">
+        <test-method is-config="true" signature="base()[pri:0, instance:testScripts.TC003_Create_New_Employee@2bbaf4f0]" started-at="2020-05-17T14:17:49 EDT" name="base" finished-at="2020-05-17T14:17:49 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- base -->
+        <test-method is-config="true" signature="getAllEmployees()[pri:0, instance:testScripts.TC003_Create_New_Employee@2bbaf4f0]" started-at="2020-05-17T14:17:49 EDT" name="getAllEmployees" finished-at="2020-05-17T14:17:55 EDT" duration-ms="5517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllEmployees -->
+        <test-method signature="checkStatusLine()[pri:0, instance:testScripts.TC003_Create_New_Employee@2bbaf4f0]" started-at="2020-05-17T14:17:55 EDT" name="checkStatusLine" finished-at="2020-05-17T14:17:55 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testScripts.TC003_Create_New_Employee@2bbaf4f0]" started-at="2020-05-17T14:17:55 EDT" name="tearDown" finished-at="2020-05-17T14:17:55 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="checkingContentType()[pri:0, instance:testScripts.TC003_Create_New_Employee@2bbaf4f0]" started-at="2020-05-17T14:17:55 EDT" name="checkingContentType" finished-at="2020-05-17T14:17:55 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkingContentType -->
+        <test-method signature="checkGetTime()[pri:0, instance:testScripts.TC003_Create_New_Employee@2bbaf4f0]" started-at="2020-05-17T14:17:55 EDT" name="checkGetTime" finished-at="2020-05-17T14:17:55 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkGetTime -->
+        <test-method signature="checkStatusCode()[pri:0, instance:testScripts.TC003_Create_New_Employee@2bbaf4f0]" started-at="2020-05-17T14:17:55 EDT" name="checkStatusCode" finished-at="2020-05-17T14:17:55 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkingBody()[pri:0, instance:testScripts.TC003_Create_New_Employee@2bbaf4f0]" started-at="2020-05-17T14:17:55 EDT" name="checkingBody" finished-at="2020-05-17T14:17:55 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkingBody -->
       </class> <!-- testScripts.TC003_Create_New_Employee -->
     </test> <!-- Rest API Testing -->
   </suite> <!-- Testing Google Apps -->

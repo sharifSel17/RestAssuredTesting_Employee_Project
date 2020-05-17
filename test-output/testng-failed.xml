@@ -6,6 +6,14 @@
   </listeners>
   <test thread-count="5" name="Rest API Testing(failed)">
     <classes>
+      <class name="testScripts.TC004_Update_Record">
+        <methods>
+          <include name="base"/>
+          <include name="getAllEmployees"/>
+          <include name="checkingBody"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testScripts.TC004_Update_Record -->
       <class name="testScripts.TC005_Delete_Record">
         <methods>
           <include name="base"/>
@@ -24,14 +32,6 @@
           <include name="getAllEmployees"/>
         </methods>
       </class> <!-- testScripts.TC002_GET_SINGLE_Employee_Details -->
-      <class name="testScripts.TC004_Update_Record">
-        <methods>
-          <include name="base"/>
-          <include name="getAllEmployees"/>
-          <include name="checkingBody"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- testScripts.TC004_Update_Record -->
     </classes>
   </test> <!-- Rest API Testing(failed) -->
 </suite> <!-- Failed suite [Testing Google Apps] -->
